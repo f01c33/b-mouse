@@ -14,7 +14,7 @@ go install github.com/f01c33/b-mouse@latest
 
 #### usage
 
-you need $GOPATH/bin (usually ``` ~/go/bin ```) on your $PATH (PATH environment variable on windows)
+you need ``` $GOPATH/bin ``` (usually ``` ~/go/bin ```) on your ``` $PATH ``` (``` PATH ``` environment variable)
 
 ```bash
 b-mouse #on your terminal
