@@ -66,7 +66,6 @@ func main() {
 		panic(err)
 	}
 	window.MakeContextCurrent()
-	// window.SetInputMode(glfw.CursorMode, glfw.CursorDisabled)
 
 	if err := gl.Init(); err != nil {
 		panic(err)
