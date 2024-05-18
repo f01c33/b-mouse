@@ -1,7 +1,6 @@
 package main
 
 import (
-	"fmt"
 	"log"
 	"runtime"
 	"time"
@@ -127,7 +126,6 @@ func main() {
 				hidden = !hidden
 			}
 			if ev.Kind == hook.KeyDown && !hidden {
-				fmt.Println(string(ev.Keychar), ev.Keycode, ev.Rawcode)
 				if ev.Rawcode == 'w' || ev.Rawcode == 'k' || ev.Rawcode == 65362 /*🠕*/ {
 					mY = (UY + DY) / 2
 					DY = mY
