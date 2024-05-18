@@ -20,14 +20,14 @@ you need $GOPATH/bin (usually ``` ~/go/bin ```) on your $PATH (PATH environment 
 b-mouse #on your terminal
 ```
 
-You can use Vim bindings, the arrow keys or wasd to control the mouse
+You can use Vim bindings (``` hjkl ```), the ``` arrow keys ``` or ``` wasd ``` to control the mouse
 
-enter or 1 for left mouse click
+``` enter ``` or ``` 1 ``` for left mouse click
 
-shift or 2 for middle mouse click
+``` shift ``` or ``` 2 ``` for middle mouse click
 
-space or 3 for left mouse click
+``` space ``` or ``` 3 ``` for left mouse click
 
-pause to hide/show the program
+``` pause ``` to hide/show the program
 
-esc or q to reset the position to the start position
+``` esc ``` or ``` q ``` to reset the position to the start position (middle of the screen)
